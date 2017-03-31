@@ -1,4 +1,4 @@
-# Antiplagiat
+# Dega
 ##### 
 
 ### Requirenments
