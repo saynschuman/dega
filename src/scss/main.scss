@@ -1,0 +1,143 @@
+@import "includes/variables";
+@import "includes/fonts";
+@import "vendors/bootstrap";
+
+body {
+	color: $mainColor;
+	font-size: $mainSize;
+	font-family: $ptSans;
+}
+
+a {
+	&:focus {
+		text-decoration: none;
+	}
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+header.header {
+	.header-inner {
+		padding-top: 6px;
+	}
+}
+
+.container {
+	background-color: #fff;
+	box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.8);
+}
+.hat-foot-block {
+	z-index: 1;
+	position: relative;
+	.logo {
+		img {
+			width: 306px;
+			max-height: 100%;
+			display: block;
+		}
+	}
+	.center {
+	    padding-top: 22px;
+    	padding-left: 57px;
+		.social {
+		    display: block;
+		    padding: 0;
+		    margin: 0px;
+			li {
+				display: inline-block;
+				margin: 0 5px;
+				a {
+					color: $iconsColor;
+					font-size: 20px;
+					transition: .3s;
+					&:hover {
+						color: $mainColor;
+						transition: .3s;
+					}
+				}
+			}
+		}
+		.mail {
+			a {	
+				color: $mainColor;
+				position: relative;
+				font-size: 16px;
+				&::after {
+					content: '';
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					height: 1px;
+					background-image: url(../img/t-d.png);
+					background-repeat: repeat-x;
+					width: 100%;
+					transition: .3s;
+				}
+				&:hover {
+					&::after {
+						opacity: 0;
+						transition: .3s;
+					}
+				}
+			}
+		}
+		.consult-title {
+			color: $consultColor;
+			font-size: 23px;
+			font-family: $hortensiac;
+		    padding-top: 8px;
+    		display: block;
+		}
+	}
+	.right {
+		padding-top: 9px;
+		text-align: right;
+		.tel {
+			display: block;
+			font-size: 28px;
+			font-weight: 700;
+			color: $consultColor;
+		}
+		.addres {
+			font-size: 16px;
+			i {
+				color: $iconsColor;
+				margin-right: 3px;
+			}
+		}
+		.appointment {
+			width: 211px;
+			height: 31px;
+			border-radius: 23px;
+			background-color: $red;
+			color: #fff;
+			font-size: 18px;
+			display: block;
+			text-align: center;
+			padding-top: 1px;
+			transition: .3s;
+			border: 1px solid $red;
+			float: right;
+			margin-top: 12px;
+			&:hover {
+				background-color: transparent;
+				color: $red;
+				transition: .3s;
+			}
+		}
+	}	
+}
+
+.substrate {
+	background-image: url(../img/bg-content.png);
+	position: absolute;
+	width: 100%;
+	height: 908px;
+	top: 0;
+	z-index: 0;
+}
+
+main.homepage {
+
+}
