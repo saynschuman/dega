@@ -6530,7 +6530,8 @@ footer.footer .postfooter {
   width: 100%;
   margin: auto;
   margin-bottom: 10px;
-  text-align: right; }
+  text-align: right;
+  padding-right: 15px; }
   .mobile-button.opened span {
     -webkit-transition: .3s;
     transition: .3s;

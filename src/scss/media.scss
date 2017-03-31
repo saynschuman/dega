@@ -154,7 +154,13 @@
 	.hat-foot-block nav ul.full-menu {
 		background-color: #337ab7;
 	}
-
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.container {
+		padding: 0;
+	}
 }
 
 @media screen and (max-width: 767px) {
