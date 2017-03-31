@@ -1,0 +1,142 @@
+@media screen and (max-width: 1200px) {
+  .hat-foot-block .right .tel {
+    font-size: 21px; }
+  .hat-foot-block .center .mail a {
+    font-size: 11px; }
+  .hat-foot-block .center {
+    font-size: 16px; }
+  .hat-foot-block .center .consult-title {
+    font-size: 16px; }
+  .hat-foot-block .logo img {
+    width: 100%;
+    max-width: 205px; }
+  .hat-foot-block .right .appointment {
+    width: auto;
+    height: auto;
+    -webkit-border-radius: none;
+            border-radius: none;
+    background-color: #fff;
+    color: #f05282;
+    font-size: 15px;
+    display: block;
+    text-align: right;
+    padding-top: 0;
+    border: none;
+    margin-top: 0; }
+  main.homepage .content .block-header {
+    font-size: 15px; }
+  main.homepage .content .center .title {
+    font-size: 30px;
+    line-height: 1.2; }
+  main.homepage .content .center .tit {
+    font-size: 12px;
+    padding: 10px 0; }
+  main.homepage .content .right .specialist img {
+    width: 100%; }
+  main.homepage .content .right .next {
+    right: -11px;
+    top: 77px; }
+  main.homepage .content .right .prev {
+    left: -11px;
+    top: 77px; }
+  main.homepage .content .right .specialist .divider {
+    width: 100%; }
+  main.homepage .content .article-about {
+    padding: 12px 13px;
+    font-size: 15px; }
+  main.homepage .content .right .specialist .name {
+    font-size: 16px; }
+  main.homepage .content .left, main.homepage .content .right {
+    font-size: 15px; }
+  main.homepage .content .read-more {
+    font-size: 13px; }
+  footer.footer .hat-foot-block .center {
+    margin-bottom: 60px; }
+  footer.footer .license {
+    padding-top: 7px; }
+  main.homepage .slider .item {
+    background-size: cover; } }
+
+@media screen and (max-width: 992px) {
+  .hat-foot-block .logo img {
+    display: block;
+    margin: 0 auto; }
+  .hat-foot-block .center,
+  .hat-foot-block .right {
+    text-align: center; }
+  .hat-foot-block .right .appointment {
+    width: 100%;
+    font-size: 17px;
+    display: block;
+    padding-top: 7px;
+    text-align: center; }
+  .hat-foot-block nav ul {
+    display: block; }
+  .hat-foot-block nav ul li.dropdown .dropdown-menu {
+    min-width: 100%; }
+  main.homepage .slider .item .slider-text,
+  main.homepage .slider .item .slider-text.left {
+    left: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 16px; }
+  main.homepage .content .center .title {
+    margin-top: 26px; }
+  main.homepage .content .right .prev {
+    left: 40%;
+    top: 2px; }
+  main.homepage .content .right .next {
+    right: 40%;
+    top: 2px; }
+  .hat-foot-block .center {
+    padding-left: 0; }
+  footer.footer .hat-foot-block .center {
+    margin-bottom: 0; }
+  footer.footer .hat-foot-block .right {
+    padding-top: 9px;
+    margin-bottom: 60px; }
+  footer.footer .postfooter {
+    bottom: 12px;
+    right: auto;
+    text-align: center; }
+  .hat-foot-block nav ul {
+    display: none; }
+  .mobile-button {
+    display: block; }
+  main.homepage .slider .item .slider-text {
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0); }
+  .hat-foot-block nav {
+    background-color: #fff;
+    padding: 0; }
+  .hat-foot-block nav ul.full-menu {
+    background-color: #337ab7; } }
+
+@media screen and (max-width: 767px) {
+  main.homepage .slider .item .slider-text,
+  main.homepage .slider .item .slider-text.left {
+    left: 0;
+    padding: 16px; }
+  main.homepage .slider {
+    height: auto; }
+  main.homepage .slider .item .slider-text, main.homepage .slider .item .slider-text.left {
+    position: relative;
+    margin-bottom: 10px; }
+  main.homepage .appointment-block a {
+    width: 250px; }
+  .bl {
+    min-height: 240px; }
+  footer.footer .postfooter {
+    position: relative;
+    padding-right: 0;
+    padding: 0 10px; }
+  footer.footer .hat-foot-block .right {
+    margin-bottom: 20px;
+    padding-top: 9px; } }
+
+@media screen and (max-width: 380px) {
+  .bl {
+    min-height: 228px; } }

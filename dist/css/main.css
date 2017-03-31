@@ -6417,12 +6417,11 @@ main.homepage {
         margin-bottom: 10px; }
       main.homepage .content .right .specialist .name {
         font-size: 18px;
-        color: 000; }
+        color: #000; }
       main.homepage .content .right .specialist .position {
         color: #4c4c4c; }
       main.homepage .content .right .specialist .divider {
         height: 1px;
-        width: 100%;
         background-color: #008eb2;
         width: 240px;
         display: block;
@@ -6518,3 +6517,78 @@ footer.footer .postfooter {
   width: 100%;
   padding-right: 15px;
   font-size: 15px; }
+
+.mobile-button {
+  display: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: right; }
+  .mobile-button.opened span {
+    -webkit-transition: .3s;
+    transition: .3s;
+    background-color: transparent; }
+    .mobile-button.opened span::after {
+      content: '';
+      position: absolute;
+      bottom: 3px;
+      height: 2px;
+      width: 100%;
+      background-color: #3789cc;
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+      left: 0;
+      -webkit-transition: .3s;
+      transition: .3s; }
+    .mobile-button.opened span::before {
+      content: '';
+      position: absolute;
+      top: -3px;
+      height: 2px;
+      width: 100%;
+      background-color: #3789cc;
+      -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg);
+      left: 0;
+      -webkit-transition: .3s;
+      transition: .3s; }
+  .mobile-button:focus {
+    color: #fff; }
+  .mobile-button span {
+    width: 25px;
+    height: 2px;
+    float: right;
+    background-color: #3789cc;
+    display: block;
+    position: relative;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .mobile-button span::after {
+      content: '';
+      position: absolute;
+      bottom: -6px;
+      height: 2px;
+      width: 100%;
+      background-color: #3789cc;
+      left: 0;
+      -webkit-transition: .3s;
+      transition: .3s; }
+    .mobile-button span::before {
+      content: '';
+      position: absolute;
+      top: -6px;
+      height: 2px;
+      width: 100%;
+      background-color: #3789cc;
+      left: 0;
+      -webkit-transition: .3s;
+      transition: .3s; }
