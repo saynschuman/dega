@@ -6593,3 +6593,26 @@ footer.footer .postfooter {
       left: 0;
       -webkit-transition: .3s;
       transition: .3s; }
+
+main.article-page .content .left .article-about {
+  padding: 0; }
+  main.article-page .content .left .article-about ul {
+    padding: 0;
+    margin: 0; }
+    main.article-page .content .left .article-about ul li {
+      list-style: none;
+      padding: 20px 15px;
+      position: relative;
+      font-family: "PT Sans", sans-serif;
+      font-size: 18px;
+      line-height: 1.2; }
+      main.article-page .content .left .article-about ul li::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background-image: url(../img/line-gray.png); }
+      main.article-page .content .left .article-about ul li:last-child::after {
+        display: none; }
