@@ -41,6 +41,8 @@
 	}
 	main.homepage .content .right .specialist img {
     	width: 100%;
+    	max-width: 400px;
+
 	}
 	main.homepage .content .right .next {
 		right: -11px;
@@ -109,12 +111,14 @@
 		margin-top: 26px;
 	}
 	main.homepage .content .right .prev {
-		left: 40%;
-	    top: 2px;
+	    left: -11px;
+	    top: 50%;
+	    transform: translateY(-50%);
 	}
 	main.homepage .content .right .next {
-	    right: 40%;
-	    top: 2px;
+	    right: -11px;
+	    top: 50%;
+	    transform: translateY(-50%);
 	}
 	.hat-foot-block .center {
     	padding-left: 0;
@@ -161,6 +165,9 @@
 	.container {
 		padding: 0;
 	}
+	main.article-page .content .center .block {
+		padding: 0;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -196,6 +203,14 @@
 @media screen and (max-width: 380px) {
 	.bl {
 		min-height: 228px;
+		&:nth-child(odd) {
+			padding-left: 0;
+			padding-right: 3px;
+		}
+		&:nth-child(even) {
+			padding-right: 0;
+			padding-left: 3px;
+		}
 	}
 
 }
