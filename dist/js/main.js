@@ -17,6 +17,10 @@
 		e.preventDefault();
 		$(this).toggleClass('opened');
 		$('.full-menu').slideToggle(200);
+	});
+	$('.t').click(function(){
+		$('.mobile-button').toggleClass('opened');
+		$('.full-menu').slideToggle(200);
 	})
 
 }(jQuery));
